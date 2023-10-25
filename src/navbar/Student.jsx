@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import Nav from './shared/nav';
+
 
 const Student = () => {
 const [name, setname] = useState("");
@@ -38,7 +38,7 @@ let addStudent = <h3>NO Student</h3>
  }
   return (
     <>
-      <Nav/>
+     
     <h1 className='
     text-5xl font-bold text-center bg-slate-400 py-6 
     '>
@@ -56,7 +56,7 @@ let addStudent = <h3>NO Student</h3>
         }}
         />
         <input 
-        type="text" 
+        type="number" 
         placeholder='Student age' 
         className='border-2 border-black rounded p-2 '
         value={age}

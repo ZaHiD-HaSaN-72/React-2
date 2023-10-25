@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Nav from './shared/nav';
+
 
 function Home() {
     
@@ -14,7 +14,7 @@ function Home() {
     }
   return (
     <>
-   <Nav/>
+
       <h1 className='text-4xl font-bold text-center'>counter: {count}</h1>
       <button 
       onClick={IncHandler}
