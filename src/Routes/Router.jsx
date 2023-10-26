@@ -10,7 +10,7 @@ import Layout from "../layout/Layout";
 
 const router = createBrowserRouter([
     {
-        path:"/Layout",
+        path:"/",
         element:  <Layout/>,
         children:[
             {
